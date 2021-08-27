@@ -1,0 +1,32 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "mspOfferName": {
+            "value": "Relecloud Managed Services"
+        },
+        "rgName": {
+            "value": "xxxx"
+        },
+        "mspOfferDescription": {
+            "value": "Relecloud Managed Services"
+        },
+        "managedByTenantId": {
+            "value": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
+        },
+        "authorizations": {
+            "value": [
+                { 
+                    "principalId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", 
+                    "roleDefinitionId": "acdd72a7-3385-48ef-bd42-f606fba81ae7",
+                    "principalIdDisplayName": "PIM_Group" 
+                }, 
+                { 
+                    "principalId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx", 
+                    "roleDefinitionId": "91c1777a-f3dc-4fae-b103-61d183457e46",
+                    "principalIdDisplayName": "PIM_Group" 
+                }
+            ]
+        }
+    }
+}
