@@ -1,1 +1,3 @@
 *~
+azuredeploy.parameters.dev-*
+deploy.ps1
